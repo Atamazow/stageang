@@ -1,0 +1,33 @@
+.staty {
+  margin-top: 150px;
+}
+.Humanize {
+  font-size: 30px;
+  font-weight: 700;
+}
+.border2 {
+  border-left: 5px solid black;
+  height: 120px;
+  font-weight: 900;
+}
+.borderText {
+  margin-left: 60px;
+}
+@media only screen and (max-width: 375px){
+  .financial{
+    font-size: 20px;
+  }
+  .bigFoto{
+    width: 350px;
+  }
+  .ipsumcenter,.ipsumcenter2{
+    font-size: 13px;
+  }
+  .Humanize{
+    font-size: 18px;
+  }
+  .borderText{
+    font-size: 10px;
+  }
+}
+

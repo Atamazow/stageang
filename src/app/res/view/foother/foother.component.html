@@ -1,0 +1,60 @@
+<footer>
+  <div class="container">
+    <div class="ready">
+      <div class="row"> <div class="col-md-3" >
+        <div class="footherText" >  The online video editor trusted by content creators to make professional video in minutes
+        </div>
+        <div class="footherIkoni d-flex"    >
+          <div class="footherIk"  *ngFor="let item of  footerIcons ">
+            <i class="{{item}}" aria-hidden="true"> </i>
+          </div>
+
+        </div>
+      </div>
+         <div class=" col-md-2 ml-3 col-4 ">
+          <div class="solutions1">
+            <div class="footerzagolovok">Solutions</div>
+            <div class="footerslova" *ngFor="let item of  solution " >{{item}}</div>
+
+          </div>
+        </div>
+        <div class="col-md-2  ml-3 col-4  ">
+          <div class="solutions1">
+            <div class="footerzagolovok">Why Wibbitz</div>
+            <div class="footerslova" *ngFor="let item of whyWibbitz" >{{item}}</div>
+
+          </div>
+        </div>
+        <div class=" col-md-2  ml-3 col-4">
+          <div class="solutions1">
+            <div class="footerzagolovok">Resources</div>
+            <div class="footerslova" *ngFor="let item of  resFooter " >{{item}}</div>
+
+          </div>
+        </div>
+        <div class=" col-md-2  ml-3 col-4 ">
+          <div class="solutions1">
+            <div class="footerzagolovok">Pricing</div>
+            <div class="footerslova" *ngFor=" let item of company " >{{item}}</div>
+
+            <br />
+            <div class="footerzagolovok">Legal</div>
+            <div class="footerslova">Terms and Conditions</div>
+            <div class="footerslova">Privacy Policy</div>
+          </div>
+        </div>
+      </div>
+      <div class="conec mt-5 ">
+        <span class="conec_icon"
+          ><i class="fa fa-globe" aria-hidden="true"></i
+        ></span>
+        <span class="coneczagolovok ">
+          Choose Language
+        </span>
+        <p class=" mt-2">
+          English (United States) <span class="ml-3">French</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

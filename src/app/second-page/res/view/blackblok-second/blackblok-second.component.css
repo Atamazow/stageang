@@ -1,0 +1,67 @@
+.blackblok {
+  height: 350px;
+  background-color: black;
+  width: 1140px;
+  margin: auto;
+  border-radius: 7px;
+  margin-top: 60px;
+}
+.blackBlokText {
+  color: white;
+  font-size: 43px;
+  font-weight: 900;
+}
+.textmuted {
+  color: gray;
+  font-size: 20px;
+}
+.poiskinput {
+  margin-left: 90px;
+}
+.blokinput2 {
+  background-color: black;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+.ready {
+  padding: 80px;
+}
+.molni {
+  margin-top: 50px;
+  color: white;
+
+}
+.reading {
+  color: gray;
+  margin-left: 20px;
+}
+.cifra{
+  margin-left: 10px;
+}
+.inputknopka {
+  margin-top: 35px;
+}
+
+@media only screen and (max-width: 375px ) {
+  .blackBlokText{
+    font-size: 20px;
+  }
+  .poiskinput{
+    margin-left: 0px;
+
+    width: 50px;
+  }
+
+  .button{width: 70px;
+    font-size: 12px;
+    padding: 6px ;
+    height: 30px;
+    margin-top: 20px;
+  }
+  .textmuted{font-size: 14px}
+
+  .work{
+    display: none;
+  }
+}

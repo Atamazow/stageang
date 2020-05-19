@@ -1,0 +1,68 @@
+.trends {
+  text-align: center;
+  margin-top: 50px;
+}
+.insights {
+  color: #0056fb;
+}
+.financial {
+  font-size: 45px;
+  font-weight: 900;
+  margin-top: 60px;
+  color: black;
+}
+.erik {
+  font-weight: 900;
+  margin-top: 40px;
+}
+.oct {
+  color: grey;
+}
+.L {
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 0.7;
+}
+.ipsumcenter {
+  margin-left: 30px;
+  font-weight: 700;
+}
+.ipsumcenter2 {
+  margin-top: 20px;
+  font-weight: 700;
+}
+.ikonki {
+  margin-right: 25px;
+  background-color: rgb(245, 241, 241);
+  width: 50px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 7px;
+  margin-top: 30px;
+  padding: 1px 10px;
+
+}
+.sidebarikonki{position: absolute;
+  right: 240px;}
+
+.silka{ list-style: none;
+  margin-top:-40px;
+
+}
+
+@media only screen and (max-width: 375px){
+  .financial{
+    font-size: 20px;
+  }
+  .bigFoto{
+    width: 350px;
+  }
+  .ipsumcenter,.ipsumcenter2{
+    font-size: 13px;
+  }
+  .sidebarikonki{
+    display: none;
+  }
+}
+

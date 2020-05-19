@@ -1,0 +1,29 @@
+.centerImg{
+     width: 300px;
+      height: 250px;
+      background-image: url("https://via.placeholder.com/300x250?text=Text");
+      background-size: cover;
+}
+.lorem {
+  font-weight: 700;
+  font-size: 15px;
+}
+.report {
+  font-weight: 500;
+}
+.report:hover {
+  border-bottom: 1px solid #0056fb;
+  color: #0056fb;
+  width: 100px;
+}
+
+.portfoto {
+  background-color: aqua;
+  width: 280px;
+  height: 200px;
+}
+
+.report22 {
+  border-bottom: 1px solid black;
+  width: 100px;
+}

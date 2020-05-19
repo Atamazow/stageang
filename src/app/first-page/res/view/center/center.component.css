@@ -1,0 +1,10 @@
+
+@media only screen and (max-width: 375px){
+  .foto2{
+    width: 250px;
+    height: 200px;
+  }
+  .galereya{
+    margin-top: 40px;
+  }
+}

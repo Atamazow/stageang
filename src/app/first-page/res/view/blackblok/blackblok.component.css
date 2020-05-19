@@ -1,0 +1,87 @@
+.blackblok {
+  height: 400px;
+  background-color: black;
+  width: 1140px;
+  max-width: 100%;
+  margin: auto;
+  border-radius: 7px;
+  margin-top: 60px;
+}
+.blackBlokText {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+}
+.poiskinput {
+  margin-left: 90px;
+}
+.ready {
+  padding: 80px;
+}
+.blokinput {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+.inputknopka {
+  margin-top: 35px;
+}
+
+
+.ikona {
+  color: white;
+  margin-left: 30px;
+  font-size: 25px;
+}
+.ikonki {
+  margin-top: 30px;
+}
+.portfolio2::before {
+  content: "24 Jun";
+  display: block;
+  background-color: white;
+  border-bottom-right-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px;
+  width: 60px;
+  height: 40px;
+  transition: 0.1s;
+  position: absolute;
+}
+.portfolio2:hover:before {
+  height: 0px;
+  visibility: hidden;
+  opacity: 1;
+}
+.button{width: 100px;
+        height: 47px;
+        padding: 10px;
+}
+
+
+
+ @media only screen and (max-width: 375px ) {
+  .blackBlokText{
+    font-size: 25px;
+  }
+   .poiskinput{
+     margin-left: 0px;
+
+     width: 50px;
+   }
+   .blokinput{width: 150px;
+              font-size: 10px;
+              padding: 7px 30px;
+              height: 25px;
+   }
+   .button{width: 70px;
+            font-size: 10px;
+            padding: 7px ;
+            height: 25px;
+   }
+   .ikona{
+      margin-left: 20px;
+   }
+
+}

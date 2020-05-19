@@ -1,0 +1,90 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "@style/button.scss";
+header {
+  margin-bottom: 40px;
+}
+
+li {
+  margin-left: 15px;
+  margin-top: 15px;
+  color: black;
+  font-size: 18px ;
+}
+
+ul {
+  list-style: none;
+}
+.knopka {
+  margin-left: -20px;
+}
+.button{
+  height: 35px;
+  width: 100px;
+  padding: 4px;
+}
+.button2 {
+  height: 50px;
+  padding: 12px;
+
+}
+.header_input {
+  border: 3px solid #ebebeb;
+  border-radius: 7px;
+  padding: 5px 20px;
+  height: 35px;
+}
+ footer{
+   margin-top: 40px ;
+ }
+
+.footherText {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.footherIk {
+  margin-right: 25px;
+  background-color: rgb(245, 241, 241);
+  width: 100px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 7px;
+  margin-top: 30px;
+  padding: 1px 10px;
+}
+.footerzagolovok,
+.coneczagolovok {
+  font-weight: 900;
+}
+.footerslova {
+  margin-top: 15px;
+  font-weight: 600;
+}
+.muted,
+.pricing {
+  color: gray;
+}
+.pricing:hover {
+  color: gray;
+}
+/*.portfolio2::before {*/
+/*  content: "24 Jun";*/
+/*  display: block;*/
+/*  background-color: white;*/
+/*  border-bottom-right-radius: 4px;*/
+/*  font-size: 14px;*/
+/*  font-weight: 500;*/
+/*  padding: 5px;*/
+/*  width: 60px;*/
+/*  height: 40px;*/
+/*  transition: 0.1s;*/
+/*  position: absolute;*/
+/*}*/
+/*.portfolio2:hover:before {*/
+/*  height: 0px;*/
+/*  visibility: hidden;*/
+/*  opacity: 1;*/
+/*}*/
+
+

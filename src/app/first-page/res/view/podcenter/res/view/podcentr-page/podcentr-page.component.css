@@ -1,0 +1,31 @@
+.podcentrImg{
+  width: 300px;
+  height: 150px;
+  background-image: url("https://via.placeholder.com/150x150?text=Text") ;
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  max-width: 100%;
+  width: 1024px;
+  margin: auto;
+}
+
+.block {
+  margin-top: 40px;
+  color: #0056fb;
+}
+.contentText
+ {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.textGaler {
+  margin-left:40px;
+}.primary {
+   color: #0056fb;
+ }
+.warning {
+  color: rgb(243, 243, 11);
+}

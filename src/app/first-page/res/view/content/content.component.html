@@ -1,0 +1,39 @@
+
+<div class="content" >
+  <div class="container mb-5 ">
+    <li class="silka" ><a routerLink="/second" routerLinkActive="active"   >Вторая  страница</a></li>
+
+    <div class="row mt-5 " >
+      <div class="col-md-7 col-12 " >
+        <div class="left-img"> </div>
+        <div class="block" > block post </div><br>
+        <span class="contentText" >How to optimize your Facebook & Instagram video ads for success </span>
+        <div class="text-muted" > <span class="contentText2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non hic, nemo laudantium velit neque veritatis. Repellat eum officia praesentium inventore, eius suscipit, assumenda reprehenderit animi voluptatem esse quod ad cupiditate.</span> </div><br><br>
+        <div class="button" >Read store</div>
+      </div>
+
+      <div class="col-md-5 col 12" >
+        <app-new-single-post *ngFor="let item of getItems()"
+                             [img]="item.img"
+                             [category]="item.category"
+                             [text]="item.text"
+                             [btn]="item.btn"
+        ></app-new-single-post>
+<!--        <div class="galereya" *ngFor="let item of getItems()" >-->
+<!--          <div class="galler d-flex mb-3 " >-->
+<!--            <img src="{{item.img}}" class="foto" >-->
+<!--            <div class="textGaler" >-->
+<!--              <span class="danger" > {{item.category}} </span>-->
+<!--              <br><br>-->
+<!--              <span class="lorem" >{{item.text}}</span>-->
+<!--              <br> <br><br>-->
+<!--              <div class="report" > {{item.btn}} </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--        </div>-->
+      </div>
+    </div>
+  </div>
+  <div class="newpost" >New Blog Posts</div>
+</div>

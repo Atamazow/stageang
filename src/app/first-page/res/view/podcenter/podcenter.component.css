@@ -1,0 +1,31 @@
+.newpost {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px ) {
+  .bigFoto {
+    width: 350px;
+    height: 250px;
+  }
+
+  .foto {
+    width: 250px;
+    height: 150px;
+
+  }
+
+
+
+  .contentText {
+    font-size: 20px
+  }
+
+
+}

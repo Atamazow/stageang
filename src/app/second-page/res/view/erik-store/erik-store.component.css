@@ -1,0 +1,52 @@
+.erikfoto {
+  border-radius: 50%;
+}
+.erik {
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.marketing {
+  margin-left: 25px;
+}
+.erik2{ font-size: 25px;
+      font-weight: 800;
+}
+.follow {
+  color: grey;
+  font-size: 17px;
+}
+.ikonki{margin-right: 25px;
+  background-color: rgb(245, 241, 241);
+  width: 50px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 7px;
+  margin-top: 30px;
+  padding: 1px 10px;}
+
+@media only screen and (max-width: 375px) {
+  .erikfoto{
+    width: 70px;
+    margin-right: 65px;
+  }
+  .erik2{font-size: 12px;
+
+  }
+
+  .Strategist{
+    font-size: 10px;
+  }
+  .follow{
+    font-size: 13px;
+  }
+  .ikonki{width: 35px;
+          height: 25px;
+          font-size: 15px;
+          text-align: center;
+  }
+  .marketing{margin-left:-40px}
+  .erik {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,21 @@
+
+
+<div class="container" >
+  <div class="content" >
+    <div class="row mt-5 " >
+      <div class="col-md-4 col-12 " *ngFor="let item of getItems()"  >
+        <app-center-page  [img]="item.img"
+                         [category]="item.category"
+                         [text]="item.text"
+                         [btn]="item.btn" >
+
+        </app-center-page>
+
+
+
+      </div>
+    </div>
+    <div class="newpost mt-5 " >Popular Resources</div>
+  </div>
+</div>
+

@@ -1,0 +1,49 @@
+.silka{ list-style: none;
+  margin-top:-40px;
+
+}
+
+.left-img {
+  width: 530px;
+  height: 450px;
+  background-image: url("https://via.placeholder.com/530x450?text=Text");
+  background-size: cover;
+}
+
+.bigFoto{
+  max-width: 100%;
+}
+.content {
+  max-width: 100%;
+  width: 1024px;
+  margin: auto;
+}
+
+.block {
+  margin-top: 40px;
+  color: #0056fb;
+}
+.contentText,
+.newpost {
+  font-weight: 900;
+  font-size: 33px;
+}
+
+.textGaler {
+  margin-left:40px;
+}
+
+@media only screen and (max-width: 375px ) {
+  .bigFoto {
+    width: 350px;
+    height: 250px;
+  }
+
+  .foto {
+    width: 250px;
+    height: 150px;
+  }
+  
+  .contentText{font-size: 20px}
+
+}

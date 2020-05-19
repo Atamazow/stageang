@@ -1,0 +1,19 @@
+
+<div class="content  " >
+  <div class="container mb-5 ">
+    <div class="row mt-5 " >
+      <div class="col-md-5 col-12" >
+        <app-podcentr-page *ngFor=" let item of getItems()" [img]="item.img"
+                           [category]="item.category"
+                           [text]="item.text"
+                           [btn]="item.btn" ></app-podcentr-page>
+
+      </div>
+      <div class="col-md-7 col-12" >
+        <img src="https://via.placeholder.com/450x540?text=Text" class="bigFoto" >
+
+      </div>
+    </div><div class="newpost mt-5 " >Upcoming Events</div>
+  </div>
+
+</div>
