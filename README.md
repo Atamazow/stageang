@@ -1,1 +1,1 @@
- [ landing ](https://Atamazow.github.io/stageang)
+ [landing](https://Atamazow.github.io/stageang)
