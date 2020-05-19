@@ -1,1 +1,1 @@
- [landing](https://Atamazow.github.io/stageang)
+ [старница для новостей](https://Atamazow.github.io/stageang)
